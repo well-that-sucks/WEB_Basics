@@ -12,58 +12,62 @@ td, th {
 }
 
 .row1 {
-    color: #47638F;
+    color: #c72822;
     background-color: #798f8f;
 }
 
 .row2 {
-    color: #47638F;
+    color: #c72822;
     background-color: #f5f579;
 }
 
 .row1:hover {
-    background-color: #f5f579;
+    filter: invert(100%);
+    border: 1px solid black;
 }
 
 .row2:hover {
-    background-color: #798f8f;
+    filter: invert(100%);
+    border: 1px solid black;
 }
 
 .figure-left {
-    position: relative;
-    margin-left: 10%;
-    margin-top: 20%;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    width: 250px;
+    height: 150px;
+}
+
+.figure-right {
+    width: 250px;
+    height: 150px;
+    transform: translate(600px, 192px);
 }
 
 .white-square {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     background-color: white;
     border: 1px solid black;
 }
 
-.figure-right {
-    transform: translate(40%, 20%);
-}
-
 .red-circle-position {
     position: relative;
-    top: 37.5%;
-    left: 37.5%;
-    height: 50px;
-    width: 50px;
-    background-color: rgb(255, 0, 0);
+    top: 16%;
+    left: 30%;
+    height: 100px;
+    width: 100px;
+    background-color: #CC0000;
     border-radius: 50%;
     display: inline-block;
 }
 
 .red-circle-transform {
-    position: relative;
-    top: 37.5%;
-    left: 37.5%;
-    height: 50px;
-    width: 50px;
-    background-color: rgb(255, 0, 0);
+    transform: translate(75px, 25px);
+    height: 100px;
+    width: 100px;
+    background-color: #CC0000;
     border-radius: 50%;
     display: inline-block;
 }
