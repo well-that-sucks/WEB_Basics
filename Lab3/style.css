@@ -1,0 +1,70 @@
+#img-1-float {
+    float: left;
+    width: 33%;
+    height: 600px;
+}
+
+#text-1-float {
+    float: middle;
+}
+
+#img-2-float {
+    width: 33%;
+    height: 566px;
+    float: left;
+}
+
+#text-2-float {
+    margin-top: 50px;
+    float: left;
+    width: 66%;
+}
+
+#text-3-float {
+    height: 600px;
+}
+
+#container-1 {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+#container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#container-3 {
+    display: flex;
+    align-items: stretch;
+}
+
+#img-1-flex {
+    width: 33%;
+    height: 600px;
+}
+
+#text-1-flex {
+    height: 10%;
+}
+
+#img-2-flex {
+    width: 50%;
+    height: 550px;
+}
+
+#text-2-flex {
+    width: 33%;
+}
+
+#text-3-flex {
+    position: relative;
+    bottom: 100px;
+    width: 66%;
+}
+
+h1 {
+    text-align: center;
+}
