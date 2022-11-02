@@ -1,0 +1,38 @@
+input {
+    width: 50%;
+    height: 30px;
+    text-align: left;
+    padding-left: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    margin-left: 25%;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+button {
+    width: 50%;
+    margin-left: 26%;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin-top: 15%;
+    width: 600px;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    padding: 3px;
+    border: 1px solid black;
+}
